@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <h2></h2>
+ </head>
+  <body>
+    <canvas style="float: left" id="wl" width="350px" height="350px"></canvas>
+    <div style="float:left">
+    <button id="clear" style="float:left; margin-left:20px">Clear</button>
+    <button id="small" style="float:left; margin-left:20px">Small</button>
+    <button id="medium" style="float:left; margin-left:20px">Medium</button>
+    <button id="large" style="float:left; margin-left:20px">Large</button>
+    <button id="layout" style="float:left; margin-left:20px">Layout</button>
+    <br>
+    <br>
+    <p>
+      <label style="margin-left:20px" for="amount">k value:</label>
+      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+      <div style="margin-left:20px" id="slider-range-min"></div>
+    <br>
+    <p>
+      <label style="margin-left:20px" for="amount2">Iterations:</label>
+      <input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+      <div style="margin-left:20px" id="iterations"></div>
+
+    <br>
+    <br>
+      <div style="margin-left:20px" class="widget">
+        <fieldset>
+          <legend>Force: </legend>
+          <label for="radio-1">Low</label>
+          <input type="radio" value="0.3" name="radio-1" id="radio-1" checked>
+          <label for="radio-2">Med</label>
+          <input type="radio" value="0.6" name="radio-1" id="radio-2">
+          <label for="radio-3">High</label>
+          <input type="radio" value="0.99" name="radio-1" id="radio-3">
+        </fieldset>
+    </div>
+    <div style="float: left; margin-left:20px; margin-top:100px;">
+      <h2> Fruchterman-Reingold </h2>
+    <img src= /images/forumula.jpg>
+    <img src= /images/formula2.jpg>
+  </div>
+
+  </div>
+  </body>
+  <script type="application/javascript" src="js/app.js"></script>
+</html>

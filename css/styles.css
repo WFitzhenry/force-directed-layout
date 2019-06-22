@@ -1,0 +1,33 @@
+canvas { 
+    border: 1px solid black; 
+    }
+
+th, td, tr {
+padding: 5px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+table, caption {
+    padding-left:50px;
+    padding-top: 50px;  
+}
+
+.data {
+    padding-left: 100px;
+    float: left;
+
+}
+
+.rhs {
+    border: 1px solid black; 
+}
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+  }
